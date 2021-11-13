@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Video Game</title>
+</head>
+<body>
+    <h1>Video Game</h1>
+    <div class="img_container">
+        <img src="images/dbz.jpg"alt="character">
+    </div>
+
+    <div class="info_container">
+        <!--Hunger, happiness, energy-->
+        <p>Hunger: <span id="petHunger">0</span></p>
+        <p>Happiness: <span id="petHappiness">0</span></p>
+        <p>Energy: <span id="petEnergy">0</span></p>
+        
+    </div>
+    <div>
+        <button onclick="Feed()">🍴</button>
+        <button onclick="Pet()">🐾</button>
+        <button onclick="Play()">Play</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

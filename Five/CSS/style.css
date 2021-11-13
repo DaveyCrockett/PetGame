@@ -1,0 +1,9 @@
+.img_container{
+    width: 40%;
+    display: flex;
+    /* Add here */
+}
+
+.img_container img{
+    width: 100%;
+}
